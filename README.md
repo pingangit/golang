@@ -36,7 +36,7 @@ drwxrwxr-x 2 dbo dbo 4096 10月  5 17:31 src
 dbo@dbo-pc:~/PycharmProjects/golang$
 ```
 ### 4. 第一个 go 程序
-- MarkDown 语法表示代码快方法:
+- MarkDown 语法表示代码块方法:
   代码块用```（代码块前后各三个）包裹起来
 
   **经测试TAB和四个空格的方法在github不生效**

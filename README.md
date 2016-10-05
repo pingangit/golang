@@ -30,21 +30,11 @@ drwxrwxr-x 2 dbo dbo 4096 10月  5 17:31 src
 dbo@dbo-pc:~/PycharmProjects/golang$
 ```
 ### 3. 第一个 go 程序
-- MarkDown 语法表示代码快方法一：
-  代码块每一行之前加一个TAB或者四个空格
-
-    package main
-    
-    import (
-        "fmt"
-    )
-    
-    func main() {
-        fmt.Print("Hello World! 你好，世界！")
-    }
-
-- MarkDown 语法表示代码快方法二:
+- MarkDown 语法表示代码快方法:
   代码块用```（代码块前后各三个）包裹起来
+
+**经测试TAB和四个空格的方法在github不生效**
+
 ```
 package main
 

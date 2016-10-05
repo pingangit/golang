@@ -1,7 +1,14 @@
 Pycharm golang 设置
 ==
 
-### 1. 设置GOPATH环境变量
+### 1. Pycharm Go 插件下载
+- 如果不能在线安装，点击下面的“下载Pycharm Golang 插件”离线安装
+
+  [下载Pycharm Golang 插件](https://plugins.jetbrains.com/plugin/5047)
+
+### 2. 设置GOPATH环境变量
+  
+- 如下是环境变量设置
 ```
 dbo@dbo-pc:~$ pwd
 /home/dbo
@@ -15,10 +22,9 @@ dbo@dbo-pc:~$ echo $GOPATH
 /home/dbo/PycharmProjects/golang
 dbo@dbo-pc:~$
 ```
-### 2. Pycharm设置
-setting --> Languages & Frameworks --> Go --> Go Libraries
-
-添加 /home/dbo/PycharmProjects/golang（工作目录）
+### 3. Pycharm设置
+- setting --> Languages & Frameworks --> Go --> Go Libraries
+- 添加 /home/dbo/PycharmProjects/golang（工作目录）
 ```
 工作目录的名称是 golang
 dbo@dbo-pc:~/PycharmProjects/golang$ ls -l
@@ -29,7 +35,7 @@ drwxrwxr-x 2 dbo dbo 4096 10月  5 17:30 pkg
 drwxrwxr-x 2 dbo dbo 4096 10月  5 17:31 src
 dbo@dbo-pc:~/PycharmProjects/golang$
 ```
-### 3. 第一个 go 程序
+### 4. 第一个 go 程序
 - MarkDown 语法表示代码快方法:
   代码块用```（代码块前后各三个）包裹起来
 

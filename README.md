@@ -4,7 +4,7 @@ Pycharm golang 设置
 ### 1. Pycharm Go 插件下载
 - 如果不能在线安装，点击下面的“下载Pycharm Golang 插件”离线安装
 
-  [下载Pycharm Golang 插件](https://plugins.jetbrains.com/plugin/5047)
+  [下载 Pycharm Golang 插件](https://plugins.jetbrains.com/plugin/5047)
 
 ### 2. 设置GOPATH环境变量
   
@@ -52,3 +52,11 @@ func main() {
     fmt.Print("Hello World! 你好，世界！")
 }
 ```
+
+### 5. Pycharm 常用插件
+
+| plugin-name    |  purpose          |
+|----------------|-------------------|
+|bash-support    |write bash script  |
+|markdown-support|write markdown do  |
+|go              |golang programe    |
